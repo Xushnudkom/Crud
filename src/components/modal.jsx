@@ -35,7 +35,7 @@ const UserModal = (props) => {
   toggle()
   }
   return (
-    <Modal isOpen={props.open} toggle={props.toggle}>
+    <Modal isOpen={props.open} toggle={props.toggle} className="p-5">
       <ModalHeader>
         <h1 className="text-center">Add User</h1>
       </ModalHeader>
